@@ -84,9 +84,49 @@ article div{
 	border: 1px solid black;
 	border-radius: 3px;
 	display: inline-block;
+	text-align: center;
+	vertical-align: center;
+	line-height: 45px;     /* za poravnanje teksta unutar boksa diva*/
+	margin-top: 10px;
 }
 
-article img{
+.desktop{
 	display: block;
-	margin-top: 100px;
+	margin-top: 150px;
+	margin-left: 370px;
+
+}
+
+#green{
+	background-color: #43b581;
+	margin-left: 380px;
+}
+
+#white{
+	background-color: white;
+	margin-left: 60px;
+}
+
+article div a{
+	color: black;
+}
+
+#buttongreen{
+	color: white;
+}
+
+#buttonwhite{
+	color: black;
+}
+
+/*Footer*/
+
+.logoBezTexta{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+}
+
+table{
+	display: inline-block;
 }
